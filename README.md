@@ -1,1 +1,3 @@
-[# ohtuvarasto](https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME>/badge.svg)
+# ohtuvarasto
+
+![GHA workflow bagde](https://github.com/varkkha/ohtuvarasto/workflows/CI/badge.svg)
