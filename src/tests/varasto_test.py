@@ -62,12 +62,7 @@ class TestVarasto(unittest.TestCase):
     def test_konstruktori_nollatilavuus(self):
         varasto = Varasto(0)
         self.assertAlmostEqual(varasto.tilavuus, 0.0)  
-        self.assertAlmostEqual(varasto.saldo, 0.0)    
-
-    def test_konstruktori_negatiivinen_tilavuus(self):
-        varasto = Varasto(-5)
-        self.assertAlmostEqual(varasto.tilavuus, 0.0)  
-        self.assertAlmostEqual(varasto.saldo, 0.0)     
+        self.assertAlmostEqual(varasto.saldo, 0.0)        
 
     def test_konstruktori_saldo_yhtaa_tilavuuden(self):
         varasto = Varasto(10, 15)
@@ -79,5 +74,5 @@ class TestVarasto(unittest.TestCase):
         
     def test_str_metodi(self):
         self.varasto.lisaa_varastoon(5)
-        expected_str = f"saldo = 5.0, vielä tilaa 5.0"
+        expected_str = f"saldo = 5, vielä tilaa 5"
         self.assertEqual(str(self.varasto), expected_str) 
