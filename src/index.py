@@ -15,7 +15,7 @@ def main():
     print(f"tilavuus = {olutta.tilavuus}")
     print(f"paljonko_mahtuu = {olutta.paljonko_mahtuu()}")
 
-    #print("Mehu setterit:")aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    #print("Mehu setterit:")
     #print("Lisätään 50.7")
     #mehua.lisaa_varastoon(50.7)
     #print(f"Mehuvarasto: {mehua}")
